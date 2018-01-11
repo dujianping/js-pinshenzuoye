@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	display: block;
+	width: 100%;
+	height:auto;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	height: 30rem;
+	background-color: #eee;
+}
+@import url('base.css');
+.yibu{
+	width: 100%;
+	height: 0.92rem;
+	/* background: yellow; */
+	border-bottom: 1px solid #e0e0e0;
+	/* margin: 0 0.13rem; */
+	font-size: 0.14rem;
+	color: #666666;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.yibu-box{
+	margin: 0.13rem;
+	color: #666666;
+	font-size: 0.36rem;
+}
+/* 一部结束 */
+/* 二部开始 */
+.erbu{
+	width: 100%;
+	height: 2.2rem;
+	background-image: -webkit-linear-gradient(left,#ff3425,#ff8638);
+	overflow: hidden;
+}
+.erbu-tx{
+	width: 100%;
+	height: 0.5rem;
+	/* background: red; */
+	margin-top: 0.16rem;
+
+}
+.erbu-tx img{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.erbu p{
+	font-size: 0.12rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+.erbu-list{
+	width: 100%;
+	height: 0.59rem;
+	border-top: 0.01rem solid #fff;
+	font-size: 0.26rem;
+	color: #000;
+	/* background: yellow; */
+	display: flex;
+	/* flex-direction: column; */
+}
+
+.erbu-list a{
+	float: left;
+    width: 25%;
+    color: #fff;
+    font-size: 0.12rem;
+    padding-left: 10%;
+    padding: 0.12rem 0 0.24rem 0.03rem;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.erbu-list-top{
+	display: block;
+    font-size: 0.12rem;
+}
+.erbu-list a:nth-child(2n) {
+    border-right: 1px solid rgba(255,255,255,.5);
+    box-sizing: border-box;
+}
+/* 二部结束 */
+/* 三部开始 */
+.sanbu{
+	width: 100%;
+	height: 0.7rem;
+	display: block;
+    padding: 0.1rem 0.25rem 0.1rem 0.25rem;
+    border-top: 0.16rem solid #fff;
+    overflow: hidden;
+    line-height: 0.7rem;
+    background: #fff;
+	display: flex;
+}
+.sanbu-left{
+	width: 50%;
+	height: 0.8rem;
+	display: block;
+	display: flex;
+	justify-content: space-between;
+}
+.sanbu-tu{
+	width: 0.8rem;
+	height: 0.8rem;
+	/* background: blue; */
+}
+.sanbu-tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.sanbu-left p{
+	font-size: 0.16rem;
+	color: #111;
+}
+.sanbu-right{
+	width: 50%;
+	height: 0.25rem;
+	display: block;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.sanbu-right p{
+	font-size: 0.12rem;
+	color: #111;
+	float: left;
+	margin-left: 0.2rem;
+}
+/* 散步结束 */
+/* 四部开始 */
+.sibu{
+	width: 100%;
+	height: 0.59rem;
+	border-top: 0.01rem solid #fff;
+	background: #f4f4f4;
+	display: flex;
+}
+.sibu a{
+	float: left;
+    width: 20%;
+    color: #111;
+    font-size: 0.12rem;
+    padding-left: 10%;
+    padding: 0.12rem 0 0.24rem 0.03rem;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sibu-list-top{
+	display: block;
+    font-size: 0.12rem;
+}
+/* 四部结束 */
+/* 六部开始 */
+.liubu{
+ 	width: 100%;
+ 	height: 2.53rem;
+ 	/* background: red; */
+ 	margin-top: 0.14rem;
+ 	display: flex;
+ }
+/* .liubu:last-child{
+  	margin-top:5.2rem;
+  } */
+ .liubu-box{
+ 	width: 50%;
+ 	height: 2.53rem;
+ 	/* background: blue; */
+ 	margin: 0  0.04rem 0.52rem 0.04rem;
+ }
+ .liubu-box:nth-child(2){
+ 	margin: 0  0.04rem 0 0;
+ }
+ .liubu-box-top{
+ 	width: 100%;
+ 	height: 1.99rem;
+ 	/* background: green; */
+ }
+ .liubu-box-bottom{
+ 	width: 100%;
+ 	height: 0.8rem;
+ 	/* background: pink; */
+ 	margin-top: 0.1rem;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+ .liubu-box-word{
+ 	font-size: 0.12rem;
+ 	color: black;
+ 	line-height:0.12rem;
+ 	text-align: center; 
+ }
+ .liubu-box-word1{
+ 	width: 0.77rem;
+ 	height: 0.09rem;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .liubu-box-word3{
+ 	font-size: 0.1rem;
+ 	color: #ff3395;
+ 	line-height: 0.10rem;
+ }
+ .liubu-box-word4{
+ 	font-size: 0.1rem;
+ 	color: #999;
+ 	line-height: 0.10rem;
+ 	text-decoration: line-through;
+ }
+ .liubu-box-word2{
+ 	font-size: 0.12rem;
+ 	color: #999;
+ 	line-height: 0.12rem;
+ }
+ .liubu:last-child{
+ 	margin-bottom: 0.52rem;
+ }
+/* 六部结束 */
+/* 第十三部开始 */
